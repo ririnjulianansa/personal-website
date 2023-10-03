@@ -451,3 +451,33 @@ span {
 .contact h2 {
     text-align: center;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: #0f2a3e;
+}
+
+.footer-text p {
+    color: whitesmoke;
+    font-size: 1.4rem;
+}
+
+.footer-iconTop a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: #0f2a3e;
+    color: whitesmoke;
+    border: .2rem solid lightskyblue;
+    border-radius: .6rem;
+}
+
+.footer-iconTop a i {
+    font-size: 2rem;
+}
