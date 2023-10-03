@@ -486,3 +486,10 @@ span {
 .footer-iconTop a i {
     font-size: 2rem;
 }
+
+/*breakpoints*/
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
