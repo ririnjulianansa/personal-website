@@ -350,3 +350,48 @@ span {
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
     width: 50%;
 }
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+    background-color: #0f2a3e;
+}
+
+.blog-row .blog-column {
+    flex: 1 1 40rem;
+}
+
+.blog-column .title {
+    font-size: 2rem;
+    margin: 0 0 1rem 2rem;
+    color: whitesmoke;
+}
+
+.blog-column p {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+}
+
+.content {
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid lightskyblue;
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+}
+
+.content a {
+    font-size: 1.6rem;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 1.3rem;
+    color: whitesmoke;
+}
