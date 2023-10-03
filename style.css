@@ -248,6 +248,11 @@ span {
     color: whitesmoke;
 }
 
+.btn-box.btns {
+    width: 15rem;
+    display: inline-block;
+}
+
 .portfolio {
     min-height: auto;
     padding-bottom: 7rem;
